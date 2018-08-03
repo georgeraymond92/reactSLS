@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+
+class header extends Component {
+  render() {
+    return (
+      <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">Welcome To Our Website!</div>
+          <div class="intro-heading text-uppercase">Senior Living Service</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#nownow">Find a Place Now!</a>
+        </div>
+      </div>
+    </header>
+    );
+  }
+}
+
+export default header;
