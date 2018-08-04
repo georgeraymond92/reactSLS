@@ -63,6 +63,6 @@ const Modal3 = () => (
         </div>
       </div>
 </div>
-    );
+);
 
-    export default Modal3;
+export default Modal3;
