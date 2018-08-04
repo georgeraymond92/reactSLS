@@ -5,6 +5,7 @@ import Client from './clients';
 import Team from './team';
 import Contact from './contacts'
 
+
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class App extends Component {
       < Team />
       < Contact />
       </div>
+     
     );
   }
 }
