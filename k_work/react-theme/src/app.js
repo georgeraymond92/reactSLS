@@ -10,18 +10,13 @@ class App extends Component {
 
             <div>
 
-                
-
-
 <Nav />
-
-
 
 
     <header className="masthead">
       <div className="container">
         <div className="intro-text">
-          <div className="intro-lead-in">Welcome To Our Website!</div>
+          <div className="intro-lead-in">Welcome To Our Website, yo!</div>
           <div className="intro-heading text-uppercase">Senior Living Service</div>
           <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#nownow">Find a Place Now!</a>
         </div>
@@ -230,33 +225,33 @@ Call us today ...WE ARE YOUR ADVOCATE</h3>
 
 
     <section id="about">
-      <div className="container">
+        <div className="container">
         <div className="row">
-          <div className="col-lg-12 text-center">
+        <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">About</h2>
             <h3 className="section-subheading text-muted">Simplify your search
-Get it right the first time. We help you from the initial consultation, to showings, to negotiating and signing your contract.
-</h3>
-          </div>
+                Get it right the first time. We help you from the initial consultation, to showings, to negotiating and signing your contract.
+            </h3>
+        </div>
         </div>
         <div className="row">
-          <div className="col-lg-12">
+        <div className="col-lg-12">
             <ul className="timeline">
-              <li>
-                <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="/img/777.jpg" alt="" />
-                </div>
-                <div className="timeline-panel">
-                  <div className="timeline-heading">
+            <li>
+        <div className="timeline-image">
+        <img className="rounded-circle img-fluid" src="/img/777.jpg" alt="" />
+        </div>
+        <div className="timeline-panel">
+        <div className="timeline-heading">
                     <h4>How we work:</h4>
                     <h4 className="subheading">Placement Procedure</h4>
-                  </div>
-                  <div className="timeline-body">
+        </div>
+        <div className="timeline-body">
                     <p className="text-muted">Finding the right Home Care, Assisted Living or Memory Care for your loved on is not an easy process.  We want to make sure that you know exactly what to expect.  At Senior Living Service, we collaborate and advocate with you each step of the way.  The following are steps in which you can expect.</p>
-                  </div>
-                </div>
-              </li>
-              <li className="timeline-inverted">
+        </div>
+        </div>
+        </li>
+        <li className="timeline-inverted">
                 <div className="timeline-image">
                   <img className="rounded-circle img-fluid" src="/img/about/22.jpg" alt="" />
                 </div>
@@ -290,32 +285,30 @@ We help you gather all clinical, State, and Community paperwork required for a m
               </li>
               <li className="timeline-inverted">
                 <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="/img/about/44.jpg" alt="" />
+                <img className="rounded-circle img-fluid" src="/img/about/44.jpg" alt="" />
                 </div>
                 <div className="timeline-panel">
-                  <div className="timeline-heading">
+                <div className="timeline-heading">
                     <h4>Moving in...</h4>
                     <h4 className="subheading">(Contracts & Agreements)</h4>
-                  </div>
-                  <div className="timeline-body">
-                    <p className="text-muted">We obtain a copy of the contract/ agreement to pre-review before you sign, to make sure there are no surprises.
-We negotiate with the community on the best rooms, rates, and terms on your behalf.
-We accompany you to the signing and move-in agreement.
-We bring any additional resources to you such as Elder Law/ Trust Attorney, Financial Planner, Real Estate Agent/Broker, and Moving companies that specialize in senior moves.</p>
-                  </div>
                 </div>
-              </li>
-              <li className="timeline-inverted">
+                <div className="timeline-body">
+                    <p className="text-muted">We obtain a copy of the contract/ agreement to pre-review before you sign, to make sure there are no surprises.
+                        We negotiate with the community on the best rooms, rates, and terms on your behalf. We accompany you to the signing and move-in agreement.We bring any additional resources to you such as Elder Law/ Trust Attorney, Financial Planner, Real Estate Agent/Broker, and Moving companies that specialize in senior moves.</p>
+                </div>
+                </div>
+                </li>
+                <li className="timeline-inverted">
                 <div className="timeline-image">
-                  <h4>Be Part
+                    <h4>Be Part
                     <br />Of Our
                     <br />Story!</h4>
                 </div>
-              </li>
+                </li>
             </ul>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
     </section>
 
 
@@ -323,17 +316,17 @@ We bring any additional resources to you such as Elder Law/ Trust Attorney, Fina
 
 
     <section className="bg-light" id="team">
-      <div className="container">
+        <div className="container">
         <div className="row">
-          <div className="col-lg-12 text-center">
+            <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
             <h3 className="section-subheading text-muted">We are here for you every step of the way.</h3>
-          </div>
+            </div>
         </div>
         <div className="row">
-          <div className="col-sm-4">
+            <div className="col-sm-4">
             <div className="team-member">
-              <img className="mx-auto rounded-circle" src="/img/team/11.jpg" alt="" />
+                <img className="mx-auto rounded-circle" src="/img/team/11.jpg" alt="" />
 
 
 
