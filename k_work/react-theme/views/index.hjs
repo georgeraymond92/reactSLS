@@ -22,7 +22,7 @@
 
   </head>
 <body>
-  <body id="page-top">
+  <body id="page-top"></body>
 
 			<div id="root"></div>
 

@@ -10,6 +10,7 @@ module.exports = {
         filename: './build/bundle.js',
         sourceMapFilename: './build/bundle.map'
     },
+    watch: true,
     devtool: '#source-map',
     module: {
         rules: [
