@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Client from './clients';
-import Team from './team';
-import Contact from './contacts';
-import About from './about';
-import Header from './header';
 import Nav from './nav';
+import Header from './header';
 import Services from './services';
-import Footer from './footer';
+import Portfolio from './portfolio';
+import About from './about';
+import Team from './team';
 import Form from './form';
+import Contact from './contacts';
+import Client from './clients';
+import Footer from './footer';
 
 
 class App extends Component {
@@ -19,10 +20,11 @@ class App extends Component {
         <Header />
         <Form />
         <Services />
+        <Portfolio />
         <About />
         <Team />
-        <Client />
         <Contact />
+        <Client />
         <Footer />
       </div>     
     );
