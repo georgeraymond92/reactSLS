@@ -11,10 +11,12 @@ class Form extends Component {
             location: "",
             serv: ""
         }
-        this.handleFormSubmit = this.handleFormSubmit.bind(this);   
+        this.handleFormSubmit = this.handleFormSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+        
     }
-    handleFormSubmit (e) {
-        e.preventDefault();
+    handleFormSubmit(event) {
+        event.preventDefault();
         console.log('handleing the submit');
         axios.post('api/contacts', this.state)
         .then(function(data){
@@ -23,6 +25,14 @@ class Form extends Component {
             console.log(err);
         });
     }
+
+    handleChange (event) {
+        const {name , value } = event.target;
+        this.setState({ 
+            [name]: value
+        });
+    }
+    
     render(){
         return (
             <div>
@@ -45,11 +55,11 @@ class Form extends Component {
                             <form>
                                 <p>
                                     <label>Name</label>
-                                    <input id="name" onChange={this.state.name} placeholder="Enter your name" type="text" name="name"/>
+                                    <input id="name" onChange={this.handleChange} value={this.state.name} placeholder="Enter your name" type="text" name="name"/>
                                 </p>
                                 <p>
                                     <label>Service</label>
-                                    <select onChange={this.state.serv} id="services" list="services5">
+                                    <select onChange={this.handleChange} value={this.state.serv} id="services" list="services5" name="serv">
                                         <option value="Independant Living">Independant Living</option>
                                         <option value="Assisted Living">Assisted Living</option>
                                         <option value="Memory Care">Memory Care</option>
@@ -57,18 +67,18 @@ class Form extends Component {
                                 </p>
                                 <p>
                                     <label>Email Address</label>
-                                    <input id="email" onChange={this.state.email} placeholder="Email" type="text" name="email"/>
+                                    <input id="email" onChange={this.handleChange} value={this.state.email} placeholder="Email" type="text" name="email"/>
                                 </p>
                                 <p>
                                     <label>Phone Number</label>
-                                    <input id="phone" onChange={this.state.phone} placeholder="Phone Number" type="text" name="phone"/>
+                                    <input id="phone" onChange={this.handleChange} value={this.state.phone} placeholder="Phone Number" type="text" name="phone"/>
                                 </p>
                                 <p>
                                     <label>Location:</label>
-                                    <input id="location" onChange={this.state.location} placeholder="Enter your name" type="text" name="location"/>
+                                    <input id="location" onChange={this.handleChange} value={this.state.location} placeholder="Enter your name" type="text" name="location"/>
                                 </p>
                                 <p className="full">
-                                    <button id="submitBtn" onClick={this.handleFormSubmit}>Submit</button>
+                                    <button id="submitBtn" onClick={this.handleChange}>Submit</button>
                                 </p>
                             </form>
                         </div>
