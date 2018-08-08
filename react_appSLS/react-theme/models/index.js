@@ -1,3 +1,3 @@
 module.exports = {
-    Contact: require("./contact")
+    Contact: require("./Contact")
 };
