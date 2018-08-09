@@ -21,7 +21,7 @@ const Portfolio = () => (
                         <img class="img-fluid" src="/img/indep.jpg" alt=""/>
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Idependent</h4>
+                        <h4>Independent</h4>
                         <p class="text-muted">Living</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const Portfolio = () => (
                     </a>
                     <div class="portfolio-caption">
                         <h4>Trusted</h4>
-                        <p class="text-muted">Proffesionals</p>
+                        <p class="text-muted">Professionals</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -98,7 +98,7 @@ const Portfolio = () => (
             </div>
         </div>
     </section>
-       
+
 );
 
 export default Portfolio;
