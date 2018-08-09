@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-    
+
     <section id="about">
         <div className="container">
             <div className="row">

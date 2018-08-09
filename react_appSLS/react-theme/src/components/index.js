@@ -1,4 +1,4 @@
-import Section from './Section';
+import Modals from './Modals';
 import Nav from './Nav';
 import Header from './header';
 import Services from './services';
@@ -13,7 +13,7 @@ import Footer from './Footer'
 
 export {
 
-    Section,
+    Modals,
     Nav,
     Header,
     Form,
@@ -24,5 +24,5 @@ export {
     Contact,
     Client,
     Footer,
-  
+
 }

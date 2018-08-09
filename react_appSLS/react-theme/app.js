@@ -14,7 +14,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hjs');
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/testdb");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/SLS_db");
 
 app.use(logger('dev'));
 app.use(express.json());

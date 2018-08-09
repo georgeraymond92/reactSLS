@@ -17,8 +17,10 @@ class Form extends Component {
     }
     handleFormSubmit(event) {
         event.preventDefault();
-        console.log('handleing the submit');
-        axios.post('api/contacts', this.state)
+        console.log('handling the submit');
+        const data = this.state;
+        console.log(data);
+        axios.post('api/contacts', data)
         .then(function(data){
             console.log(data)
         }).catch(function(err){
@@ -78,7 +80,7 @@ class Form extends Component {
                                     <input id="location" onChange={this.handleChange} value={this.state.location} placeholder="Enter your name" type="text" name="location"/>
                                 </p>
                                 <p className="full">
-                                    <button id="submitBtn" onClick={this.handleChange}>Submit</button>
+                                    <button id="submitBtn" onClick={this.handleFormSubmit}>Submit</button>
                                 </p>
                             </form>
                         </div>

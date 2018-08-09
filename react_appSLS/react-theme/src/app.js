@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import {Nav,Header,Form,Services,Portfolio,About,Team,Contact,Client,Footer} from './components';
+import {Nav,Header,Form,Services,Portfolio,About,Team,Contact,Client,Footer,Modals} from './components';
 
 
 
@@ -8,16 +8,17 @@ class App extends Component {
     render(){
         return (
             <div>
-              <Nav />
-              <Header />
-              <Form />
-              <Services />
-              <Portfolio />
-              <About />
-              <Team />
-              <Contact />
-              <Client />
-              <Footer />
+                <Nav />
+                <Header />
+                <Form />
+                <Services />
+                <Portfolio />
+                <About />
+                <Team />
+                <Contact />
+                <Client />
+                <Footer />
+                <Modals />
             </div>
         )
     };
