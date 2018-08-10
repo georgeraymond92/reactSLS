@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import {Nav,Header,Form,Services,Portfolio,About,Team,Contact,Client,Footer,Modals} from './components';
+import {Nav,Header,Form,Services,Portfolio,About,Team,Contact,Client,Footer,Modals,Biscard} from './components';
 
 
 

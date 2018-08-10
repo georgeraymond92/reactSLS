@@ -2,24 +2,13 @@ $(document).ready(function() {
     $('#submitBtn').on("click", function () {
         event.preventDefault();
 
-        var newRequest = {
-            name: $("#name").val().trim(),
-            serv: $("#services option:selected").text(),
-            phone: $("#phone").val().trim(),
-            email: $("#email").val().trim(),
-            zip: $("#location").val().trim()
-        };
-
-        // console.log(newRequest);
-
-        // send the POST request.
-        $.ajax("/api/orm", {
-            type: "POST",
-            data: newRequest
-        }).then(function () {
-            // console.log("created new request", newRequest);
-            //  location.reload();   
-        });
+        // var newRequest = {
+        //     name: $("#name").val().trim(),
+        //     serv: $("#services option:selected").text(),
+        //     phone: $("#phone").val().trim(),
+        //     email: $("#email").val().trim(),
+        //     zip: $("#location").val().trim()
+        // };
         setQuery();
         initialize();
         callApi();

@@ -8,7 +8,8 @@ import Team from './team';
 import Form from './form';
 import Contact from './contacts';
 import Client from './clients';
-import Footer from './Footer'
+import Footer from './Footer';
+import Biscard from './biscard';
 
 
 export {
@@ -24,5 +25,6 @@ export {
     Contact,
     Client,
     Footer,
+    Biscard,
 
 }
