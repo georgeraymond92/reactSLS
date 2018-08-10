@@ -77,7 +77,7 @@ class Form extends Component {
                                 </p>
                                 <p>
                                     <label>Location:</label>
-                                    <input id="location" onChange={this.handleChange} value={this.state.location} placeholder="Enter your name" type="text" name="location"/>
+                                    <input id="location" onChange={this.handleChange} value={this.state.location} placeholder="please enter a zip" type="text" name="location"/>
                                 </p>
                                 <p className="full">
                                     <button id="submitBtn" onClick={this.handleFormSubmit}>Submit</button>
